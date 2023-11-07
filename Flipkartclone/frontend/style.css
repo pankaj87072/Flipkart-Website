@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+   font-size: 62.5%;
+}
+.nav{
+    display: flex;
+    flex-wrap: no-wrap;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    /* border:.2rem solid red; */
+    padding: 1em 0em 1em 0em;
+}
+main{
+    position: sticky;
+    top: 0;
+    background-color: rgba(249 243 246);
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    /* border:.2rem solid red; */
+    margin-left: 2rem;
+}
+/* ._2FZvZO{
+    margin:0em 0em 0em 5.3em;
+    border:.2rem solid red ;
+} */
+li{
+    list-style: none;
+   margin: 0.6em;
+   font-size: 2.5rem;
+    /* border:.2rem solid red; */
+}
+.listofnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0em 11em 0em 0em;
+}
+/* .searchbar{
+    border:.2rem solid red;
+    
+} */
+input{
+    /* border: .2rem solid red; */
+    font-size: 2rem;
+    width:90rem;
+    height: 6rem;
+    /* margin: 0em 17.5em 0em 0em; */
+    border-radius: 1.5rem;
+    background-color: #7f546c21;
+}
+.YLCOuy_3-rS5G{
+    padding:0em 0em 0em 1.2em;
+}
+.containerssect{
+overflow: scroll;
+}
+.mainmenu{
+    /* border: .2rem solid red; */
+    height:20.6rem ;
+    width: 98%;
+    margin-left:2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2em;
+    background-color: #7f546c21;
+    overflow: hidden;
+}
+.container1{
+ /* border: .2rem solid red; */
+ width: 20em;
+ margin: .2rem;
+ height: 20rem;
+ border-radius: 10%;
+ background-color:#fff;
+ padding: .2em;
+}
+/* .container1:hover{
+   
+} */
+.image{
+    height: fit-content;
+}
+.image>img{
+    width:100%;
+    max-height: 13em;
+    border-radius: 20%;
+}
+.image>img:hover{
+    transform: scale(1.1);
+}
+.itemtitle{
+ font-size: 1.8em;
+}
+.price{
+    height: 2em;
+}
+.discount{
+    width: 50%;
+    float: right;
+    height: 100%;
+}
+.ratings{
+   height:2.2em;
+}
+/* .grocery,.mobiles,.fashion,.electronics,.homefurniture,.appliances,.travels,.beauties,.twowheel{
+ display: flex;
+ flex-direction: column;
+padding: 2em;
+font-size: 1.8rem;
+font-weight:bolder;
+} */
+.slidebar{
+    /* border:.2rem solid red; */
+    height:26rem;
+    margin-top:2rem;
+    background-color: #7f546c21;
+    overflow: hidden;
+    width: 100%;
+}
+/* Add styles for the image slider */
+
+.slider-wrapper {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.slider-wrapper>img {
+    width: 100%;
+    height: auto;
+}
+
+.section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bestofel{
+    /* border: .2rem solid red; */
+    height:35rem;
+    width: 85%;
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-top: 1.6em;
+    padding: 1.2em;
+    background-color: #7f546c21;
+}
+
+.ad{
+    /* border:.2rem solid red; */
+    width:25.3rem;
+    height:38.9rem;
+    display: inline-block;
+    margin-top: 1.4em;
+    /* aspect-ratio: 28 /43; */
+}
+.itemsofsect3{
+    display: flex;
+    flex-direction: row;
+    margin: .2em;
+    justify-content: space-evenly;
+   
+}
+.sect3cont1{
+    /* border: .2rem solid red; */
+    width: 7em;
+    height: 10em;
+    margin: .2em;
+    border-radius: 10%;
+    background-color:#fff;
+    padding: .2em;
+}
+.image2>img{
+    width: 100%;
+    max-height: 4.5em;
+    border-radius: 10px;
+}
+.image2>img:hover{
+    transform: scale(1.1);
+}
+.itemtitle2{
+    font-size: .8em;
+   }
+   .price2{
+       height: 1em;
+   }
+   .discount2{
+       width: 50%;
+       float: right;
+       height: 100%;
+   }
+   .ratings2{
+      height:1.5em;
+   }
+.bestofbea{
+    /* border: .2rem solid red; */
+    height:35rem;
+    width: 100%;
+    margin-top: 1.6em;
+    padding: 1.2rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    background-color: #7f546c21;
+}
+.itemsofsect4{
+    display: flex;
+    flex-direction: row;
+    margin: .2em;
+    justify-content: space-evenly;
+}
+.sect4cont1{
+    width: 7em;
+    height: 11em;
+    margin: .2em;
+    border-radius: 10%;
+    background-color:#fff;
+    padding: .2em;
+}
+.image3{
+    width: fit-content;
+
+}
+.itemtitle3{
+    font-size: .6em;
+}
+.image3>img{
+    width: 100%;
+    max-height: 4.5em;
+    border-radius: 10px;
+
+}
+.image3>img:hover{
+    transform: scale(1.05);
+}
+.ratings3,.price3,.discount3{
+    font-size: .5em;
+}
+.raksha{
+    /* border: .2rem solid red; */
+    height: 65rem;
+    width: 30%;
+    margin-top: .67em;
+    padding:1.2em;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+.ad1{
+    /* border: .2rem solid red; */
+    height: 65rem;
+    width: 69%;
+     margin-top:1.6em;
+}
+.section5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
